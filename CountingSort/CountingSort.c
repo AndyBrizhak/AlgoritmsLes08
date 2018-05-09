@@ -75,9 +75,6 @@ int main(void)
 	printf("\n ");
 	getch();
 	simpleCountingSort(a, count);
-	/*printf("Number of  elements: %d\nNumber of compares: %d\n", n, k);
-	printf("n^2 = %d\nn*log(n) = %d\n",
-	n * n, (int)(n*log(n) / log(exp(1))));*/
 	printf("Sorted Array:\n");
 	for (i = 0; i <count; i++)
 	{
@@ -88,6 +85,6 @@ int main(void)
 	free(a);
 	fclose(fin);
 	//fclose(fout);
-	getch();
+	
 	return 0;
 }
