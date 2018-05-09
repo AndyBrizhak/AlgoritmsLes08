@@ -36,15 +36,18 @@ simpleCountingSort(int * a, int k) // где k – длина массива А,
 	printf("\n ");
 	getch();
 	b = 0;
-	for (j = 0; j< MAX)
+	for (j = 0; j< MAX; j++)
 	{
-		for (i = 0; i< c[j] - 1)
+		if (c[j]>0)
 		{
-			a[b] = j;
+			for (i = 0; i< c[j]; i++)
+			{
+				a[b] = j;
+				b++;
+			}
 		}
-			a[b] = j;
-		b ++;
 	}
+
 	
 }
 
