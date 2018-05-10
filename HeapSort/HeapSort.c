@@ -19,7 +19,7 @@ int main(void)
 
 	a = (int *)malloc(MAX * sizeof(int));// выделяем память
 	i = 0;
-	fscanf(fin, "%d", &a[i]) == 1
+	/*fscanf(fin, "%d", &a[i]) == 1*/
 	while (fscanf(fin, "%d", &a[i]) == 1)
 	{
 		i++;

@@ -67,15 +67,8 @@ int main()
 	}
 	printf("\n ");
 	getch();
-	/*int a[10];
 	
-	for (int i = 0; i<10; i++)
-		a[i] = rand() % 20 - 10;
-	
-	for (int i = 0; i<10; i++)
-		printf("%d ", a[i]);
-	printf("\n");*/
-	quickSort(a, 1, 100); 
+	quickSort(a, 0, 99); 
 						
 	for (int i = 0; i<MAX; i++)
 		printf("%d ", a[i]);
